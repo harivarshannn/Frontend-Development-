@@ -14,10 +14,9 @@
     .blk { position: absolute; border-radius: 12px; padding: 10px 14px; overflow: hidden; }
     .blk h2 { margin: 0 0 6px 0; font-size: 22px; font-weight: 700; color: #111827; }
     .blk p { margin: 0; font-size: 15px; line-height: 1.35; color: #1f2937; }
-    .foot { position: absolute; left: 80px; top: 660px; margin: 0; font-size: 20px; color: #0f172a; }
     @media (max-width: 1280px) {
       .canvas { width: 100vw; min-height: 56.25vw; }
-      .frame, .title, .sub, .foot, .blk { transform-origin: top left; transform: scale(calc(100vw / 1280)); }
+      .frame, .title, .sub, .blk { transform-origin: top left; transform: scale(calc(100vw / 1280)); }
     }
   </style>
 </head>
@@ -25,9 +24,9 @@
   <main class='canvas'>
     <div class='frame'></div>
     <h1 class='title'>Module Banner Height Shift - Media Queries Practice I253</h1>
-    <p class='sub'>Expected UI Reference</p>
+    
     <section class='blk' style='left:80px;top:190px;width:1120px;height:90px;background:#dbeafe;'><h2>Desktop State</h2><p>Wide layout for Module Banner Height Shift with multi-column structure</p></section><section class='blk' style='left:80px;top:295px;width:360px;height:315px;background:#e2e8f0;'><h2>Tablet State</h2><p>Reflow to balanced two-column arrangement</p></section><section class='blk' style='left:460px;top:295px;width:740px;height:95px;background:#fef3c7;'><h2>Mobile State</h2><p>Stacked single-column layout with full-width blocks</p></section><section class='blk' style='left:460px;top:405px;width:360px;height:205px;background:#dcfce7;'><h2>Breakpoint Rules</h2><p>Explicit breakpoints controlling spacing and order</p></section><section class='blk' style='left:840px;top:405px;width:360px;height:205px;background:#ede9fe;'><h2>Adaptive Behavior</h2><p>Typography and controls scaled per viewport</p></section>
-    <p class='foot'>Recreate this exact final interface.</p>
+    
   </main>
 </body>
 </html>
