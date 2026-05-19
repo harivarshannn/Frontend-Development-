@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='720' viewBox='0 0 1280 720'>
+  <rect width='1280' height='720' fill='#f0fdfa'/>
+  <rect x='36' y='36' width='1208' height='648' rx='20' fill='white' stroke='#0f766e' stroke-width='5'/>
+  <rect x='60' y='60' width='1160' height='92' rx='12' fill='#d1fae5'/>
+  <text x='78' y='98' font-family='Arial, sans-serif' font-size='30' font-weight='800' fill='#0f766e'>Pricing Matrix Grid - Grid Beginner Challenge 223</text>
+  <text x='78' y='130' font-family='Arial, sans-serif' font-size='20' fill='#334155'>Beginner • Grid • Exact Expected UI Preview</text>
+  <rect x='80' y='190' width='1120' height='80' rx='12' fill='#e2e8f0'/><text x='94' y='226' font-family='Arial, sans-serif' font-size='26' font-weight='700' fill='#111827'>Top Banner</text><rect x='80' y='285' width='1120' height='110' rx='12' fill='#dbeafe'/><text x='94' y='321' font-family='Arial, sans-serif' font-size='26' font-weight='700' fill='#111827'>Sidebar</text><rect x='80' y='410' width='360' height='200' rx='12' fill='#fef3c7'/><text x='94' y='446' font-family='Arial, sans-serif' font-size='26' font-weight='700' fill='#111827'>Main Grid A</text><rect x='460' y='410' width='360' height='200' rx='12' fill='#ede9fe'/><text x='474' y='446' font-family='Arial, sans-serif' font-size='26' font-weight='700' fill='#111827'>Main Grid B</text><rect x='840' y='410' width='360' height='200' rx='12' fill='#dcfce7'/><text x='854' y='446' font-family='Arial, sans-serif' font-size='26' font-weight='700' fill='#111827'>Bottom Panel</text>
+  <text x='80' y='660' font-family='Arial, sans-serif' font-size='20' fill='#0f172a'>Recreate this final look exactly in your solution.</text>
+</svg>
