@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: sans-serif; padding: 20px; }
+</style>
+</head>
+<body>
+<style>
+.holy-grail {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.body-flex {
+  display: flex;
+  flex: 1;
+}
+.main { flex: 3; order: 2; }
+.sidebar { flex: 1; order: 1; }
+</style>
+<div class="holy-grail">
+  <header>H</header>
+  <div class="body-flex">
+    <main class="main">M</main>
+    <aside class="sidebar">S</aside>
+  </div>
+  <footer>F</footer>
+</div>
+</body>
+</html>
