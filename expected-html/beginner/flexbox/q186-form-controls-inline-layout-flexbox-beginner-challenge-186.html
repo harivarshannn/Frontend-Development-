@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Form Controls Inline Layout - Flexbox Beginner Challenge 186 - Expected Output</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f0fdfa; color: #0f172a; }
+    .wrap { max-width: 1160px; margin: 28px auto; padding: 24px; background: #fff; border: 4px solid #0f766e; border-radius: 16px; }
+    h1 { margin: 0 0 10px; font-size: 32px; color: #0f766e; }
+    p.meta { margin: 0 0 18px; font-size: 18px; }
+    .grid { display: grid; gap: 16px; }
+    .row { height: 92px; border-radius: 12px; }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .three { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+    .four { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
+    .stack { display: grid; gap: 16px; }
+    .card, .hero, .sidebar { height: 160px; border-radius: 12px; }
+    .hero { height: 336px; }
+    .sidebar { height: 336px; }
+    .a { background: #dbeafe; }
+    .b { background: #e2e8f0; }
+    .c { background: #fef3c7; }
+    .d { background: #ede9fe; }
+    .e { background: #f1f5f9; }
+    .f { background: #ecfeff; }
+    .cta { margin-top: 18px; display: inline-block; padding: 12px 18px; border-radius: 10px; background: #0f766e; color: #fff; font-weight: 700; }
+    @media (max-width: 900px) {
+      .two, .three, .four { grid-template-columns: 1fr; }
+      .hero, .sidebar { height: 180px; }
+      h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <main class='wrap'>
+    <h1>Form Controls Inline Layout - Flexbox Beginner Challenge 186</h1>
+    <p class='meta'>Beginner • Flexbox • Exact expected output reference</p>
+    <section class='grid'>
+      
+      <section class='two'>
+        <article class='sidebar'></article>
+        <div class='stack'>
+          <article class='card a'></article>
+          <section class='two'>
+            <article class='card b'></article>
+            <article class='card c'></article>
+          </section>
+        </div>
+      </section>
+
+    </section>
+    <span class='cta'>Recreate this exact UI</span>
+  </main>
+</body>
+</html>
